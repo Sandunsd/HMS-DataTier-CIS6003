@@ -82,7 +82,7 @@ public class DataServiceTest {
         Customer result = instance.getCustomer(username);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -97,7 +97,7 @@ public class DataServiceTest {
         Customer result = instance.checkUsername(username);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
